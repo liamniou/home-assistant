@@ -1,0 +1,13 @@
+---
+
+name: Day Outdoor Lights
+entities:
+  light.driveway_lantern_light:
+    state: false
+    transition: 5
+  automation.reset_outdoor_lights_night:
+    state: false
+  automation.motion_stopped_outdoors:
+    state: false
+  automation.motion_detected_outdoors:
+    state: false

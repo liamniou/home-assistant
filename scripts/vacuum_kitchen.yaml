@@ -1,0 +1,10 @@
+---
+
+vacuum_kitchen:
+  alias: "Vacuum Kitchen"
+  sequence:
+    - service: vacuum.send_command
+      data:
+        entity_id: vacuum.xiaomi_vacuum_cleaner
+        command: app_zoned_clean
+        params: [[12681, 33293, 16781, 37193, 2]]

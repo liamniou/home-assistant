@@ -1,0 +1,7 @@
+---
+# Combine the two sets of LED cabinet lighting into one group
+
+platform: group
+name: Kitchen Lights
+entities:
+  - light.kitchen_left

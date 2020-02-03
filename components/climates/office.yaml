@@ -1,0 +1,11 @@
+---
+
+platform: generic_thermostat
+name: Office
+heater: switch.office_thermostat_switch
+target_temp: 78
+target_sensor: sensor.office_temperature
+initial_hvac_mode: "cool"
+cold_tolerance: 2
+hot_tolerance: -2
+ac_mode: true

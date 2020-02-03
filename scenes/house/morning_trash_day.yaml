@@ -1,0 +1,16 @@
+---
+
+name: Morning Trash Day
+entities:
+  light.kitchen_lights:
+    state: true
+    white_value: 0
+    color_name: blue
+    brightness_pct: 60
+  light.living_room_light:
+    state: true
+    brightness_pct: 20
+  light.office_lamp_left:
+    state: true
+  switch.flux:
+    state: false
